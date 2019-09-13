@@ -32,13 +32,13 @@ class Archives(PythonLinter):
 
     def on_stderr(self, stderr: bool) -> None:
         """
-        @cc 2
+        @cc 1
         @desc is on stderr
         @arg stderr: if is on stderr
         """
-        if stderr:
-            self.notify_failure()
-            logger.error(stderr)
+        # if stderr:
+        #     self.notify_failure()
+        #     logger.error(stderr)
 
     def parse_output(self, proc, virtual_view) -> List:
         """
