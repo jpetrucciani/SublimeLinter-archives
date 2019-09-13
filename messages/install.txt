@@ -1,0 +1,7 @@
+SublimeLinter-archives
+-------------------------------
+This linter plugin for SublimeLinter provides an interface to archives.
+
+Please read the installation instructions at:
+
+https://github.com/jpetrucciani/SublimeLinter-archives
